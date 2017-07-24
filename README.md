@@ -57,12 +57,12 @@ debug.log('Started %d', process.uptime());
 debug.enabled;
 //=> false
 
-Debug.enable('app');
+Debugged.enable('app');
 
 debug.enabled;
 //=> true
 
-Debug.disable();
+Debugged.disable();
 
 debug.enabled;
 //=> false
