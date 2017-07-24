@@ -22,4 +22,4 @@
 
 'use strict';
 
-module.exports = require('./Debug');
+module.exports = require('./Debugged');
