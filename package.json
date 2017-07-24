@@ -1,0 +1,41 @@
+{
+  "name": "debugged",
+  "description": "Lightweight wrapper for the debug module",
+  "version": "0.1.0",
+  "homepage": "https://github.com/NotNinja/debugged",
+  "bugs": {
+    "url": "https://github.com/NotNinja/debugged/issues"
+  },
+  "author": {
+    "name": "Alasdair Mercer",
+    "email": "mercer.alasdair@gmail.com",
+    "url": "https://not.ninja"
+  },
+  "license": "MIT",
+  "keywords": [
+    "debug",
+    "log",
+    "debugger",
+    "debugged",
+    "wrapper"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NotNinja/debugged.git"
+  },
+  "peerDependencies": {
+    "debug": "^2"
+  },
+  "devDependencies": {
+    "eslint": "^4.2.0",
+    "eslint-config-notninja": "^0.2.3"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "ci": "npm run test",
+    "test": "eslint \"src/**/*.js\" \"test/**/*.js\""
+  },
+  "engines": {
+    "node": ">=4"
+  }
+}
