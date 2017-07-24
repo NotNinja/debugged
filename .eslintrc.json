@@ -2,5 +2,9 @@
   "extends": "notninja/es6",
   "env": {
     "node": true
+  },
+  "rules": {
+    "prefer-rest-params": "off",
+    "prefer-spread": "off"
   }
 }

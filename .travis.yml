@@ -8,3 +8,8 @@ before_script:
   - npm install -g npm@latest
 script:
   - npm run ci
+notifications:
+  slack:
+    rooms:
+      - secure: CLSK7BCNh+tlQvzN47U1AdlOOFiFzTB0gBACFbKM8pKocM9sTRvY2rAfDoGg5r9BuhdDustJNq/YRQneBrGE5+QiMwvMIb5DhHCsEPlPoaf6eXyN6DnahcfUrd3kxwyzl5dyL7tu3m0VPuXeGM3JMr5/iMKkeBqLYRC4iQlB7X5m7CnsSthVyvHZ7BgGGHeFlHWXTo/T9p0320rP+wedNF991HinRbgBtMDsIqso1+Ke3wCYuhjAI9VHFoSfdnWLM5T0jP+4wg3XVXtpXFer9CelqIGcVkNtz8tzisdeU9uhtYR6qYEbIDqdHRBnBAh0NmEl4nOhfoCviS3dvbhLjgT2u/4k2zkOLcGPv68b9iBiy4EmTemSp87yiQ2SMAn3cW82Hhx8DZGSMC1+hCez5QM4VzDvmv1UmR3J7MAdo8VLa/Zl7+KVONkERUzcFNie/Ix25RuDP/SROALH0fucsNKyjEM3FKPAG4M2QQwBYqMCm18MoZG0OQnLpn1dEGL7DmFAvsdiYNWAYOggQuOE+JSREbbyyQiMtPwsTZtlvPE7fDjYjh3PNymrw0QPr7Z8gbsD5K1fHASQ9szCcJV5CxT3o+q6YZXlBJ3wa9hQSV+iN+lCMP0xLmzaEIrqXkRP+znXCltyxCNv/FRPEfy2/8TajkLHy89UPT1BCvRaM40=
+    on_success: change
